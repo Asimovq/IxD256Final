@@ -17,10 +17,15 @@ Generating Aroma.
 ![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png)
 
 ## Firmware
-<iframe src=https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
+
+``` <iframe src=https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0> </iframe> ```
+
+#### Input: 
+Lighting density data from the Photoresistor
+#### Output: 
+The on/off state for the relay
 
 ## Software
-Provide a link to your Arduino code and explain a few important parts that make your prototype work. Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype. 
 
 ## Integrations
 Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc. In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.
