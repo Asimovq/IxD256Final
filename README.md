@@ -1,22 +1,22 @@
 # IxD256Final
 
-##Implementation
+## Implementation
 
-##Hardware
+## Hardware
 
-##Firmware
+## Firmware
 
-##Software
+## Software
 
-##Integrations
+## Integrations
 
-##Enclosure / Mechanical Design
-
-
-##Project outcome
+## Enclosure / Mechanical Design
 
 
-##Conclusion
+## Project outcome
 
 
-##Project references
+## Conclusion
+
+
+## Project references
