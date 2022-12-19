@@ -1,4 +1,4 @@
-# IxD256Final Introduction
+# IxD256 Final Introduction
 The inital concept is to further develop the last project by including visualization based on the weather data from the internet. The final outcome is mostly similar to the initial concept.
 ![alt text](https://github.com/Asimovq/IxD256Final/blob/main/1605225.png)
 
