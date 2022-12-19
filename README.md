@@ -145,13 +145,14 @@ The combinition of sun clock hardware and a p5js visualization.
 ![Image3](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8123%202.jpeg)
 ![Image4](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8134%202.jpeg)
 ![Image5](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8146%202.jpeg)
+[Video Link](https://youtu.be/-d_D4mCYK6A)
 
 
 ## Conclusion
-As you wrap up the project, reflect on your experience of creating it. Use this as an opportunity to mention any discoveries or challenges you came across along the way. If there is anything you would have done differently, or have a chance to continue the project development given more time or resources, it’s a good way to conclude this section.
+The biggest challenge in the process is to combine the data got from IFTTT with the code in c2js, especially it's my first time using c2js. If I have more time, I would like to refine the visualization code and also the mechnical of the clock to make it adjustable without taking out the sensor.
 
 
 
 ## Project references
-Please include links to any online resources like videos or tutorials that you may have found helpful in your process of implementing the prototype. If you used any substantial code from an online resource, make sure to credit the author(s) or sources.
+[Tutorial Link](https://c2js.org/)
 
