@@ -1,7 +1,8 @@
 # IxD256Final
 
 ## Implementation
-Provide a description of your initial project idea and include images of the concept sketches that you created in Part 1 of this assignment. Explain the reasoning behind your final choice of the project concept, whether it’s based on one of the initial sketches, a combination of or a departure from the original concepts.
+The inital concept is to further develop the last project by including visualization based on the weather data from the internet. The final outcome is mostly similar to the initial concept.
+
 
 
 ## Hardware
