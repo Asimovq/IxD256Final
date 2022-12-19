@@ -18,7 +18,7 @@ Generating Aroma.
 
 ## Firmware
 
-``` <iframe src=https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0> </iframe> ```
+<iframe src=https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 #### Input: 
 Lighting density data from the Photoresistor
