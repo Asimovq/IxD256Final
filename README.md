@@ -1,12 +1,16 @@
-# IxD256Final
-
-## Implementation
+# IxD256Final Introduction
 The inital concept is to further develop the last project by including visualization based on the weather data from the internet. The final outcome is mostly similar to the initial concept.
-![alt text](https://github.com/Asimovq/IxD256Final/blob/main/1605225.png))
+![alt text](https://github.com/Asimovq/IxD256Final/blob/main/1605225.png)
 
-
+# Implementation
 ## Hardware
-Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (arduino code), software (p5.js or other code), integrations (Adafruit IO, IFTTT, Arduino IoT cloud, etc.), enclosure and mechanical design. Use a separate subheader for eachv part:
+Resistor: For protecting the circuit.
+M5Core-Ink: Controlling all the component in the circuit.
+Relay: Control the humidifier based on the sensor data.
+Photoresistor: Sensing the light intensity.
+Humidifier: Generating Aroma.
+![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png))
+
 
 
 
