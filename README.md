@@ -2,11 +2,11 @@
 
 ## Implementation
 The inital concept is to further develop the last project by including visualization based on the weather data from the internet. The final outcome is mostly similar to the initial concept.
-
+![alt text](https://github.com/Asimovq/IxD256Final/blob/main/1605225.png))
 
 
 ## Hardware
-Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (arduino code), software (p5.js or other code), integrations (Adafruit IO, IFTTT, Arduino IoT cloud, etc.), enclosure and mechanical design. Use a separate subheader for each part:
+Explain your process of prototype development including all applicable aspects such as hardware (electronics), firmware (arduino code), software (p5.js or other code), integrations (Adafruit IO, IFTTT, Arduino IoT cloud, etc.), enclosure and mechanical design. Use a separate subheader for eachv part:
 
 
 
