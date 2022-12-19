@@ -119,12 +119,19 @@ void loop() {
 
 
 ## Software
-[P5JS Link]((https://editor.p5js.org/yqian2/sketches/XOIwpKbxw)
+[P5JS Link](https://editor.p5js.org/yqian2/sketches/XOIwpKbxw)
 
 #### Code: 
 Getting temperature data from Weather Underground through IFTTT and adafruit, and visualize it with different color.
+
+
 ## Integrations
-Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc. In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.
+Using IFTTT to get data from Underground Weather at a specific time of the day, and sends the data to the adafruit to be quoted in the p5js for live visualization.
+![Adafruit](https://github.com/Asimovq/IxD256Final/blob/main/Adafruit_OskarQian.png)
+![IFTTT](https://github.com/Asimovq/IxD256Final/blob/main/IFTTT_OskarQian.png)
+
+
+
 
 ## Enclosure / Mechanical Design
 Explain how you made the enclosure or any other physical or mechanical aspects of your project with photos, screenshots of relevant files such as laser-cut patterns, 3D models, etc. (it’s great if you’re willing to share the editable source files too!)
