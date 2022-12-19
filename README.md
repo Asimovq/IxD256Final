@@ -17,11 +17,106 @@ Generating Aroma.
 ![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png)
 
 ## Firmware
-[Arduino Code Link](https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview)
+
 #### Input: 
 Lighting density data from the Photoresistor
 #### Output: 
 The on/off state for the relay
+
+```
+#include "M5CoreInk.h"
+
+const int ledPin = 10;  // built-in LED
+const int sensorPin = 23;
+int sensorValue = 0;
+int brightnessVal = 0;
+const int OutputPin = 32;
+int noEmission = 0;
+int currentState = noEmission;
+int emission = 1;
+
+#include <WiFi.h>
+#include <AdafruitIO_WiFi.h>
+#include "M5CoreInk.h"
+
+// initialize WiFi connection:
+// WiFiClient wifi;
+// AdafruitIO_WiFi io(SECRET_AIO_USERNAME, SECRET_AIO_KEY, SECRET_SSID, SECRET_PASS);
+// AdafruitIO_Feed *weatherfeed = io.feed("weatherfeed");
+// AdafruitIO_Feed *ledFeed = io.feed("ledfeed");
+
+unsigned long sensorTimer = 0;
+
+void setup() {
+  M5.begin();
+  Serial.begin(9600);
+
+  pinMode(ledPin, OUTPUT);
+  pinMode(sensorPin, INPUT);
+
+  // connect to io.adafruit.com
+  Serial.print("Connecting to Adafruit IO");
+  //io.connect();
+
+  // set up a message handler for the ledFeed:
+  //ledFeed->onMessage(handleMessage);
+
+  // wait for a connection
+  // while(io.status() < AIO_CONNECTED) {
+  //   Serial.print(".");
+  //   delay(500);
+  // }
+
+  //ledFeed->get();
+
+  // print connection status
+  //Serial.println(io.statusText());
+
+  //M5.begin();
+  pinMode(ledPin, OUTPUT);
+  pinMode(OutputPin, OUTPUT);
+
+  Serial.begin(9600);
+}
+
+void loop() {
+  // io.run(); is required for all sketches.
+  // it should always be present at the top of your loop
+  // function. it keeps the client connected to
+  // io.adafruit.com, and processes any incoming data.
+  //io.run();
+
+  // read a 12-bit sensor value:
+  int sensorVal = analogRead(sensorPin);
+
+  // print sensorVal to Serial port:
+  Serial.print("send sensorVal: ");
+  Serial.println(sensorVal);
+
+  // publish message every 5 seconds:
+  if (millis() > sensorTimer + 5000) {
+    sensorTimer = millis();
+  }
+}
+
+//recieving
+
+// void handleMessage(AdafruitIO_Data *data) {
+
+//   Serial.print("received: ");
+//   Serial.println(data->value());
+
+//   if(strcmp((char*)data->value(), "ON")) {
+//     digitalWrite(ledPin, HIGH);
+//   }
+//   else {
+//     digitalWrite(ledPin, LOW);
+//   }
+// }
+```
+
+[Arduino Code Link](https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview)
+
 
 ## Software
 
