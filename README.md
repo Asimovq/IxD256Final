@@ -4,11 +4,11 @@ The inital concept is to further develop the last project by including visualiza
 
 # Implementation
 ## Hardware
-Resistor: For protecting the circuit.
-M5Core-Ink: Controlling all the component in the circuit.
-Relay: Control the humidifier based on the sensor data.
-Photoresistor: Sensing the light intensity.
-Humidifier: Generating Aroma.
+#### Resistor: For protecting the circuit.
+#### M5Core-Ink: Controlling all the component in the circuit.
+#### Relay: Control the humidifier based on the sensor data.
+#### Photoresistor: Sensing the light intensity.
+#### Humidifier: Generating Aroma.
 ![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png))
 
 
