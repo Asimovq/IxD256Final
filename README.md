@@ -119,8 +119,10 @@ void loop() {
 
 
 ## Software
-<iframe src="https://editor.p5js.org/yqian2/full/XOIwpKbxw"></iframe>
+[P5JS Link]((https://editor.p5js.org/yqian2/sketches/XOIwpKbxw)
 
+#### Code: 
+Getting temperature data from Weather Underground through IFTTT and adafruit, and visualize it with different color.
 ## Integrations
 Include a link to and/or screenshots of other functional components of your project, like Adafruit IO feeds, dashboards, IFTTT applets, etc. In general, think of your audience as someone new trying to learn how to make your project and make sure to cover anything helpful to explain the functional parts of it.
 
