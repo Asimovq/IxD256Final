@@ -14,16 +14,10 @@ Control the humidifier based on the sensor data.
 Sensing the light intensity.
 #### Humidifier: 
 Generating Aroma.
-![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png))
-
-
-
+![alt text](https://github.com/Asimovq/IxD256Final/blob/main/Adv_Prototyping_Project4_schem.png)
 
 ## Firmware
-List all the separate hardware components used in your project and briefly explain what they do. Include a schematic diagram image (Fritzing is recommended, but hand-drawn is OK) showing all the wiring connections between the M5Stack-CoreInk board and other components.
-
-In addition, include at least one photo showing your hardware wiring. This can be several close-ups with the goal of showing how the wiring connections are made. This is especially important if your project has an enclosure, to reveal what is inside.
-
+<iframe src=https://create.arduino.cc/editor/oskarqq/d3ecab0f-46c3-4f68-aff5-17ade2102290/preview?embed style="height:510px;width:100%;margin:10px 0" frameborder=0></iframe>
 
 ## Software
 Provide a link to your Arduino code and explain a few important parts that make your prototype work. Most likely you should explain the inputs/outputs used in your code and how they affect the behavior of the prototype. 
