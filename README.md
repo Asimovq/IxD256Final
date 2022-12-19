@@ -137,12 +137,12 @@ Using IFTTT to get data from Underground Weather at a specific time of the day, 
 
 ![Image1](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8115%202.jpeg)
 ![Image2](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8121%202.jpeg)
-![Image3](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8123%202.jpeg)
 
 
 
 ## Project outcome
 The combinition of sun clock hardware and a p5js visualization.
+![Image3](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8123%202.jpeg)
 ![Image4](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8134%202.jpeg)
 ![Image5](https://github.com/Asimovq/IxD256Final/blob/main/IMG_8146%202.jpeg)
 
